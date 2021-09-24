@@ -3,6 +3,7 @@
 :root {
     --primary-color:#22254b;
     --secondary-color:#373b69;
+    --white:#fff
 }
 
 html{
@@ -29,7 +30,7 @@ header {
     font-family: inherit;
     font-size: 1rem;
     padding: 0.5rem 1rem;
-    color: white;
+    color: var(--white);
 }
 
 .search::placeholder {
@@ -93,7 +94,7 @@ main {
 }
 
 .overview {
-    background-color: white;
+    background-color: var(--white);
     padding: 2rem;
     position: absolute;
     left: 0;
